@@ -47,6 +47,6 @@ public class ButtonPress : MonoBehaviour
         MediaMenuControl.HideMenu();
 
         Vector3 objectPos = Camera.main.transform.position + Camera.main.transform.forward;
-        GameObject prefabInstance = Instantiate(this.objectPrefab, objectPos, Quaternion.identity) as GameObject;
+        Instantiate(this.objectPrefab, objectPos, Quaternion.identity);
     }
 }

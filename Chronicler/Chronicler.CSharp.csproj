@@ -70,6 +70,12 @@
     <Reference Include="Mono.Cecil">
       <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets\Particles\GUI Animator\Common\Plugins\GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimatorFREE">
+      <HintPath>Assets\Particles\GUI Animator\GUI Animator FREE\Plugins\GUIAnimatorFREE.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HoloToolkit-Examples\ColorPicker\GazeableColorPicker.cs" />
@@ -255,11 +261,32 @@
     <Compile Include="Assets\HoloToolkit\Utilities\Tests\Scripts\PlaneTargetGroup.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Tests\Scripts\PlaneTargetGroupPicker.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Tests\TextToSpeechManagerTest.cs" />
+    <Compile Include="Assets\Particles\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
+    <Compile Include="Assets\Particles\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+    <Compile Include="Assets\Particles\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+    <Compile Include="Assets\Particles\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+    <Compile Include="Assets\Particles\GE Common Assets\Scripts\GE_UIResponder.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+    <Compile Include="Assets\Particles\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
     <Compile Include="Assets\Scripts\ButtonPress.cs" />
+    <Compile Include="Assets\Scripts\FakeGif.cs" />
     <Compile Include="Assets\Scripts\FollowGaze.cs" />
     <Compile Include="Assets\Scripts\MediaIcon.cs" />
     <Compile Include="Assets\Scripts\MediaMenuControl.cs" />
     <Compile Include="Assets\Scripts\ObjectPlacer.cs" />
+    <Compile Include="Assets\Scripts\POIBox.cs" />
+    <Compile Include="Assets\Scripts\PillarText.cs" />
+    <Compile Include="Assets\Scripts\PointOfInterest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit\Input\Shaders\CursorShader.shader" />
@@ -282,6 +309,10 @@
     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurable.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurableTransparent.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Shaders\WindowOcclusion.shader" />
+    <None Include="Assets\Particles\Elementals\Readme.txt" />
+    <None Include="Assets\Particles\GE Common Assets\Readme.txt" />
+    <None Include="Assets\Particles\GUI Animator\GUI Animator FREE\!How to.txt" />
+    <None Include="Assets\Particles\GUI Animator\GUI Animator FREE\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

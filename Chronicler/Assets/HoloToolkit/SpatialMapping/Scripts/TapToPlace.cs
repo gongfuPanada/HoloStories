@@ -33,6 +33,7 @@ namespace HoloToolkit.Unity
         /// </summary>
         WorldAnchor savedAnchor;
 
+        internal static bool CanPlace = true;
         bool placing = false;
 
         void Start()
@@ -67,6 +68,11 @@ namespace HoloToolkit.Unity
         // Called by GazeGestureManager when the user performs a tap gesture.
         void OnSelect()
         {
+            if (!CanPlace)
+            {
+                return;
+            }
+
             if (SpatialMappingManager.Instance != null)
             {
                 // On each tap gesture, toggle whether the user is in placing mode.
@@ -172,10 +178,10 @@ namespace HoloToolkit.Unity
                     this.transform.position = hitInfo.point;
 
                     // Rotate this object to face the user.
-                    Quaternion toQuat = Camera.main.transform.localRotation;
-                    toQuat.x = 0;
-                    toQuat.z = 0;
-                    this.transform.rotation = toQuat;
+                    //Quaternion toQuat = Camera.main.transform.localRotation;
+                    //toQuat.x = 0;
+                    //toQuat.z = 0;
+                    //this.transform.rotation = toQuat;
                 }
             }
         }
